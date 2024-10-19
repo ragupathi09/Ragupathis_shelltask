@@ -5,3 +5,4 @@
 [https://roadmap.sh/projects/github-actions-deployment-workflow]
 [https://roadmap.sh/projects/ssh-remote-server-setup]
 [https://roadmap.sh/projects/basic-dockerfile]
+[https://roadmap.sh/projects/static-site-server]
