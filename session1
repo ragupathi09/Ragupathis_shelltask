@@ -1,0 +1,42 @@
+45 minutes -> arch of concentration 
+----------
+VCPU vs CPU
+caluculation VCPU -> MEM/No of VCPU
+
+Linux arch 
+----------
+uname -a or uname
+x_84 vs ARM 
+BIOS booter --> https://www.youtube.com/watch?v=XpFsMB6FoOs
+
+
+
+man 
+---
+meta data for the command 
+
+Process verify
+--------------
+top or htop
+ps -aux
+Top five CPU process -> ps -eo cmd,%cpu --sort=-%cpu | head -n 6
+Top five  mem consume -> ps -eo cmd,%mem --sort=-%mem | head -n 6
+
+Physical mem
+-------------
+df -h 
+du -h
+lsblk
+/etc/fstab--> generate UUID for mounting path 
+sudo fdisk /dev/sda--> partioning utlity 
+
+Network
+-------
+netstat -ntlp -- verify the port
+ifconfig
+
+
+
+
+
+
