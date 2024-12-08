@@ -19,7 +19,7 @@ Process verify
 --------------
 top or htop
 ps -aux
-Top five CPU process -> ps -eo cmd,%cpu --sort=-%cpu | head -n 6
+Top five CPU process ->  ps -eo user,cmd,%cpu,%mem --sort=-%cpu | head -n 6
 Top five  mem consume -> ps -eo cmd,%mem --sort=-%mem | head -n 6
 
 Physical mem
@@ -29,11 +29,15 @@ du -h
 lsblk
 /etc/fstab--> generate UUID for mounting path 
 sudo fdisk /dev/sda--> partioning utlity 
+nproc
+cat /etc/os_release
+uname -a
 
 Network
 -------
 netstat -ntlp -- verify the port
 ifconfig
+nload
 
 
 
